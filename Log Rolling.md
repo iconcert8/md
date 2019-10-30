@@ -9,7 +9,7 @@ Written by BGKim, VCANUS
 
 # Log4j2
 
-## ADD dependency MAVEN
+## ADD maven dependency in pom.xml
 pom.xml
 ```
 <dependency>
