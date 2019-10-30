@@ -76,7 +76,7 @@ log4j2.xml
 ```
 <Configuration status="warn" moniterInterval="30"\> 
 > 'status'는 로그 로딩시에 하는 로깅 기준 레벨이다. 
-> 'moniterInterval'은 설정이 변경을 체크하는 주기, 변경시 재설정.
+> 'moniterInterval'은 설정 변경을 체크하는 주기, 변경시 재설정.
 
 <Property name=""\>value<\>
 > 미리 사용할 자원을 설정할 수 있다. 여기서는 로그패턴과 루트경로를 설정하였다.
