@@ -9,7 +9,7 @@ Written by BGKim, VCANUS
 
 # Log4j2
 
-## ADD maven dependency in pom.xml
+## Add maven dependency in pom.xml
 pom.xml
 ```
 <dependency>
@@ -40,7 +40,7 @@ spring-boot-starter
 lombok
 > 클래스 상단에 @log4j2을 사용, log작성시 로거객체 생성이 필요없다.
 
-## ADD log4j2.xml in folder resources
+## Add log4j2.xml in folder resources
 log4j2.xml
 ```
 <?xml version="1.0" encoding="UTF-8"?>
@@ -101,7 +101,7 @@ log4j2.xml
 
 > additivity는 상위로거(패키지 상위 로거 혹은 루트로거)의 전달을 받을지 설정
 
-## USE
+## Use
 ```
 @Log4j2
 public class TempClass{
