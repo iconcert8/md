@@ -9,7 +9,7 @@ Written by BGKim, VCANUS
 
 # Log4j2
 
-## add dependency MAVEN
+## ADD dependency MAVEN
 exclude 'spring-boot-starter' default logging 
 ```
 <dependency>
@@ -37,7 +37,7 @@ exclude 'spring-boot-starter' default logging
 lombok library
 > 클래스 상단에 @log4j2을 사용, log작성시 로거객체 생성이 필요없다.
 
-## add log4j2.xml in folder resources
+## ADD log4j2.xml in folder resources
 log4j2.xml
 ```
 <?xml version="1.0" encoding="UTF-8"?>
