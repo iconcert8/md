@@ -96,6 +96,8 @@ log4j2.xml
 
 <Logger level="info" name="com.vcanus" additivity="false"\>
 > 로그 객체이다. level설정, name설정, additivity설정이 가능하다
+
+> 위에서 정의한 appender를 설정하여 원하는 로그방식으로 출력
     
 > name을 패키지 경로 사용시 해당 경로의 로그만 출력
 
