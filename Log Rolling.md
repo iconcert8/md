@@ -10,7 +10,7 @@ Written by BGKim, VCANUS
 # Log4j2
 
 ## ADD dependency MAVEN
-exclude 'spring-boot-starter' default logging 
+pom.xml
 ```
 <dependency>
     <groupId>org.springframework.boot</groupId>
@@ -34,7 +34,9 @@ exclude 'spring-boot-starter' default logging
     <optional>true</optional>
 </dependency>
 ```
-lombok library
+spring-boot-starter
+> 'spring-boot-starter'의 기본 로깅을 제외 시킨다. 
+lombok
 > 클래스 상단에 @log4j2을 사용, log작성시 로거객체 생성이 필요없다.
 
 ## ADD log4j2.xml in folder resources
