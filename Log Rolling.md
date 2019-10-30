@@ -35,7 +35,8 @@ pom.xml
 </dependency>
 ```
 spring-boot-starter
-> 'spring-boot-starter'의 기본 로깅을 제외 시킨다. 
+> 'spring-boot-starter'의 기본 로깅을 제외 시킨다.
+
 lombok
 > 클래스 상단에 @log4j2을 사용, log작성시 로거객체 생성이 필요없다.
 
