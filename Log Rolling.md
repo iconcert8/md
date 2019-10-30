@@ -79,6 +79,7 @@ log4j2.xml
 ```
 <Configuration status="warn" moniterInterval="30"\> 
 > 'status'는 로그 로딩시에 하는 로깅 기준 레벨이다. 
+    
 > 'moniterInterval'은 설정 변경을 체크하는 주기, 변경시 재설정.
 
 <Property name=""\>value<\>
@@ -95,7 +96,9 @@ log4j2.xml
 
 <Logger level="info" name="com.vcanus" additivity="false"\>
 > 로그 객체이다. level설정, name설정, additivity설정이 가능하다
+    
 > name을 패키지 경로 사용시 해당 경로의 로그만 출력
+
 > additivity는 상위로거(패키지 상위 로거 혹은 루트로거)의 전달을 받을지 설정
 
 ## USE
