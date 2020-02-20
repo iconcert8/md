@@ -7,10 +7,6 @@ tags: install CentOS 8 and graphic driver
 
 Written by BGKim, VCANUS
 
-$$
-\mathbf{V}_1
-$$
-
 # Install CentOS 8
 
 ## Make install USB
